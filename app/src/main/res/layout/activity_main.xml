@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2AD130"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/imageRPlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rplogo" />
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#0D293E"
+        android:text="@string/programming_modules"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonC346"
+        android:layout_width="315dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/c346"
+        android:textSize="35dp"
+        app:backgroundTint="#000000" />
+
+    <Button
+        android:id="@+id/buttonC203"
+        android:layout_width="315dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="@string/c203"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:backgroundTint="#000000" />
+</LinearLayout>
